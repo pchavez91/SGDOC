@@ -1,0 +1,7 @@
+.margin-top{
+	margin-top: 20px;
+}
+
+#msg-alert,#msg-alert-success{
+	display: none;
+}
