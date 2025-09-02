@@ -204,38 +204,32 @@ toastr.options = {
       
         <div class="modal-header" style="background-color: #39b3d7; color: white;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title" style="text-align: center;">EXPLORADOR DE ARCHIVOS</h4>
+          <h4 class="modal-title" style="text-align: center;">SOLICITUD DE CODIGO</h4>
         </div>
 
         <div class="modal-body" style="padding: 20px;">
 
           <!-- Paso 1 -->
           <div id="paso1">
-            <p><b>Paso 1: Identifica la área que necesitas</b></p>
-            <p>Cada caja de color representa una carpeta o área de trabajo dentro de la organización:</p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="imagen.png" style="width: 100%; height: auto;">
+            <p><b>Completa el formulario con los datos necesarios para tu documento</b></p>
+            
+            <img src="IMAGENES/solicitud_codigo_1.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 2 -->
           <div id="paso2" style="display: none;">
-            <p><b>Paso 2: Se abre una ventana emergente</b></p>
-            <p>Al hacer clic en una caja, se abre una ventana emergente que muestra el contenido de esa carpeta:</p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="Iimagen.png" style="width: 100%; height: auto;">
+            <p><b>Despues de completar el formulario presiona el boton de generar codigo</b></p>
+            
+            <img src="IMAGENES/solicitud_codigo_2.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 3 -->
           <div id="paso3" style="display: none;">
-            <p><b>Paso 3: Navega por la jerarquía</b></p>
             <ul>
-              <li></li>
+              <li>Despues de confirmar todos los datos presiona el boton "reservar y enviar por correo".</li>
+              <li>Recibirás un correo con tu nuevo código.</li>
             </ul>
-            <img src="IM.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/solicitud_codigo_3.png" style="width: 100%; height: auto;">
           </div>
 
         </div>

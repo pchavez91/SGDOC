@@ -135,21 +135,16 @@
 
           <!-- Paso 2 -->
           <div id="paso2" style="display: none;">
-            <p><b>Paso 2: Se abre una ventana emergente</b></p>
-            <p></p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="Iimagen.png" style="width: 100%; height: auto;">
+            <p><b>Rechazo de un documento</b></p>
+            <p>Rellena el formulario indicando porque rechazas el documento.</p>
+            <img src="IMAGENES/publicar_documento__rechazo.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 3 -->
           <div id="paso3" style="display: none;">
-            <p><b>Paso 3: Navega por la jerarquía</b></p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="IM.png" style="width: 100%; height: auto;">
+            <p><b>Documentos publicados</b></p>
+            <p>Aca puede dar de baja un archivo subido o revisar sus archivos.</p>
+            <img src="IMAGENES/documentos_publicados.png" style="width: 100%; height: auto;">
           </div>
 
         </div>

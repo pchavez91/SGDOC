@@ -58,38 +58,30 @@
       
         <div class="modal-header" style="background-color: #39b3d7; color: white;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title" style="text-align: center;">EXPLORADOR DE ARCHIVOS</h4>
+          <h4 class="modal-title" style="text-align: center;">APROBAR DOCUMENTO</h4>
         </div>
 
         <div class="modal-body" style="padding: 20px;">
 
           <!-- Paso 1 -->
           <div id="paso1">
-            <p><b>Paso 1: Identifica la área que necesitas</b></p>
-            <p>Cada caja de color representa una carpeta o área de trabajo dentro de la organización:</p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="imagen.png" style="width: 100%; height: auto;">
+            <p>Aqui podras ver un listado en una tabla donde salen los archivos para abrirlos, aprobarlos o rechazarlos</p>
+            <img src="IMAGENES/aprobar_documento.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 2 -->
           <div id="paso2" style="display: none;">
-            <p><b>Paso 2: Se abre una ventana emergente</b></p>
-            <p>Al hacer clic en una caja, se abre una ventana emergente que muestra el contenido de esa carpeta:</p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="Iimagen.png" style="width: 100%; height: auto;">
+            <p><b>Aprobar documento</b></p>
+            <p>En esta seccion decides quien puede ver el documento aprobado</p> 
+            
+            <img src="IMAGENES/aprobar_documento_1.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 3 -->
           <div id="paso3" style="display: none;">
-            <p><b>Paso 3: Navega por la jerarquía</b></p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="IM.png" style="width: 100%; height: auto;">
+            <p><b>Rechazar documento</b></p>
+            <p>Aqui dejas un pequeño comentario de porque rechazas el documento.</p>
+            <img src="IMAGENES/publicar_documento__rechazo.png" style="width: 100%; height: auto;">
           </div>
 
         </div>
