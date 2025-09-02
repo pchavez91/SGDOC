@@ -136,6 +136,8 @@ toastr.options = {
 
 <script src="script/infografia.js"></script>
 
+
+
   <!-- VENTANA AYUDA-->
   <div id="ventana_de_ayuda" class="modal fade">
     <div class="modal-dialog" style="width: 800px; max-width: 100%;">
@@ -143,29 +145,29 @@ toastr.options = {
       
         <div class="modal-header" style="background-color: #39b3d7; color: white;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title" style="text-align: center;">EXPLORADOR DE ARCHIVOS</h4>
+          <h4 class="modal-title" style="text-align: center;">SUBIR ARCHIVO</h4>
         </div>
 
         <div class="modal-body" style="padding: 20px;">
 
           <!-- Paso 1 -->
           <div id="paso1">
-            <p><b>Paso 1: Identifica la área que necesitas</b></p>
-            <p>Cada caja de color representa una carpeta o área de trabajo dentro de la organización:</p>
             <ul>
-              <li></li>
+              <li>Paso 1: Haz clic en Subir archivo.</li>
+              <li>Paso 2: Completa el formulario con los datos que piden.</li>
+              <li>Paso 3: Busca el archivo en "seleccionar archivo".</li>
+              <li>Paso 4: Subelo al sistema y presiona el boton confirmar.</li>
             </ul>
-            <img src="imagen.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/subir_archivo_1.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 2 -->
           <div id="paso2" style="display: none;">
-            <p><b>Paso 2: Se abre una ventana emergente</b></p>
-            <p>Al hacer clic en una caja, se abre una ventana emergente que muestra el contenido de esa carpeta:</p>
             <ul>
-              <li></li>
+              <li>El nuevo registro aparece al tope de tu lista</li>
+              <li>Desde allí podrás ver su progreso, descargarlo o cancelarlo antes de que lo aprueben.</li>
             </ul>
-            <img src="Iimagen.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/subir_archivo_2.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 3 -->
@@ -188,6 +190,9 @@ toastr.options = {
       </div>
     </div>
   </div>
+
+  
+
 
  <!-- VENTANA CODIGO ARCHIVO -->
 <div id="ventana_subir_archivo" class="modal fade">

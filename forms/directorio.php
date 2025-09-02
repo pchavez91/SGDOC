@@ -6,10 +6,10 @@
   <style>
     .icono-ayuda {
       width: 50px;
-      height: 40px;
+      height: 42px;
       cursor: pointer;
       position: absolute;
-      top: -2px;
+      top: -1px;
       right: -2px;
     }
   </style>
@@ -251,33 +251,36 @@
 
           <!-- Paso 1 -->
           <div id="paso1">
-            <p><b>Paso 1: Identifica la área que necesitas</b></p>
-            <p>Cada caja de color representa una carpeta o área de trabajo dentro de la organización:</p>
+            <p><b>Generar código</b></p>
             <ul>
-              <li></li>
+              <li>Paso 1: haz clic en Generar código</li>
+              <li>Paso 2: completa el codigo a reservar</li>
+              <li>Paso 3: presione en "reservar codigo" para guardar el codigo</li>
             </ul>
-            <img src="imagen.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/generar-codigo.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 2 -->
           <div id="paso2" style="display: none;">
-            <p><b>Paso 2: Se abre una ventana emergente</b></p>
-            <p>Al hacer clic en una caja, se abre una ventana emergente que muestra el contenido de esa carpeta:</p>
+            <p><b>Crear carpeta</b></p>
             <ul>
-              <li></li>
+              <li>Paso 1: haz clic en Crear carpeta</li>
+              <li>Paso 2: ingresa el nombre de la nueva carpeta y agrega su nomesclatura</li>
+              <li>Paso 3: presione en el boton crear carpeta para finalizar</li>
             </ul>
-            <img src="Iimagen.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/carpeta.png" style="width: 100%; height: auto;">
           </div>
 
           <!-- Paso 3 -->
           <div id="paso3" style="display: none;">
-            <p><b>Paso 3: Navega por la jerarquía</b></p>
+            <p><b>PLista de códigos</b></p>
             <ul>
-              <li></li>
+              <li>Paso 1: Haz clic en Lista de códigos</li>
+              <li>Paso 2: Se desplegará un listado con todos los códigos ya reservados</li>
+              <li>Paso 3: Usa el buscador interno para encontrar entre los codigos reservados el| que necesitas</li>
             </ul>
-            <img src="IM.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/lista-codigos.png" style="width: 73%; height: auto;">
           </div>
-
         </div>
 
         <!-- Controles de navegación -->
