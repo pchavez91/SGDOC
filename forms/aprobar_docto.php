@@ -61,12 +61,11 @@
           <h4 class="modal-title" style="text-align: center;">APROBAR DOCUMENTO</h4>
         </div>
 
-        <div class="modal-body" style="padding: 20px;">
-
+        <div class="modal-body" style="padding: 20px; height: 500px; overflow-y: auto;">
           <!-- Paso 1 -->
           <div id="paso1">
             <p>Aqui podras ver un listado en una tabla donde salen los archivos para abrirlos, aprobarlos o rechazarlos</p>
-            <img src="IMAGENES/aprobar_documento.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/aprobar_documento.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 2 -->
@@ -74,14 +73,14 @@
             <p><b>Aprobar documento</b></p>
             <p>En esta seccion decides quien puede ver el documento aprobado</p> 
             
-            <img src="IMAGENES/aprobar_documento_1.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/aprobar_documento_1.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 3 -->
           <div id="paso3" style="display: none;">
             <p><b>Rechazar documento</b></p>
             <p>Aqui dejas un pequeño comentario de porque rechazas el documento.</p>
-            <img src="IMAGENES/publicar_documento__rechazo.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/publicar_documento__rechazo.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
         </div>

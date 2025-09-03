@@ -123,28 +123,28 @@
           <h4 class="modal-title" style="text-align: center;">PUBLICAR DOCUMENTO</h4>
         </div>
 
-        <div class="modal-body" style="padding: 20px;">
+        <div class="modal-body" style="padding: 20px; height: 500px; overflow-y: auto;">
 
           <!-- Paso 1 -->
           <div id="paso1">
             <p><b>Pasos para la publicación</b></p>
             <p><b>En tu lista de "publicar documento" tienes los botones para poder aceptar el documento.</b></p>
             
-            <img src="IMAGENES/publicar_documento_1.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/publicar_documento_1.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 2 -->
           <div id="paso2" style="display: none;">
             <p><b>Rechazo de un documento</b></p>
             <p>Rellena el formulario indicando porque rechazas el documento.</p>
-            <img src="IMAGENES/publicar_documento__rechazo.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/publicar_documento__rechazo.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 3 -->
           <div id="paso3" style="display: none;">
             <p><b>Documentos publicados</b></p>
             <p>Aca puede dar de baja un archivo subido o revisar sus archivos.</p>
-            <img src="IMAGENES/documentos_publicados.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/documentos_publicados.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
         </div>

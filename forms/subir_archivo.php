@@ -145,7 +145,7 @@ toastr.options = {
           <h4 class="modal-title" style="text-align: center;">SUBIR ARCHIVO</h4>
         </div>
 
-        <div class="modal-body" style="padding: 20px;">
+        <div class="modal-body" style="padding: 20px; height: 500px; overflow-y: auto;">
 
           <!-- Paso 1 -->
           <div id="paso1">
@@ -155,7 +155,7 @@ toastr.options = {
               <li>Paso 3: Busca el archivo en "seleccionar archivo".</li>
               <li>Paso 4: Subelo al sistema y presiona el boton confirmar.</li>
             </ul>
-            <img src="IMAGENES/subir_archivo_1.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/subir_archivo_1.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 2 -->
@@ -164,7 +164,7 @@ toastr.options = {
               <li>El nuevo registro aparece al tope de tu lista</li>
               <li>Desde allí podrás ver su progreso, descargarlo o cancelarlo antes de que lo aprueben.</li>
             </ul>
-            <img src="IMAGENES/subir_archivo_2.png" style="width: 100%; height: auto;">
+            <img src="IMAGENES/subir_archivo_2.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
           </div>
 
         <!-- Controles de navegación -->
