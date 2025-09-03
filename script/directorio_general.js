@@ -397,8 +397,6 @@ function salir_directorio(){
 carga_directorio_inicio();
 
 
-// Vista 1: carpetas raíz
-// Vista 1: carpetas raíz (siempre img/1.png)
 function cargarVistaCarpetas() {
   const $cont = $('#vista_carpetas').empty();
 
@@ -669,7 +667,7 @@ $('#btnVolver').on('click', function() {
 
 
 // === Config ===
-var ROOT_PARENT_ID = 1;
+var ROOT_PARENT_ID = 3844;
 
 // === Cache simple para hijos de directorios ===
 var __dirCache = {};
@@ -765,7 +763,7 @@ function ensureDataTable() {
   });
 }
 
-// === buscador global ===
+// === buscador ===
 function hookSearch() {
   window.tablaFiltroGlobal = function(q) {
     if (tablaArchivos) { tablaArchivos.search(q).draw(); }
@@ -775,7 +773,7 @@ function hookSearch() {
   });
 }
 
-// === filtros jerárquicos (sin botón) ===
+// === filtros ===
 function hookFilters() {
   $selRepo.on('change', function() {
     var repoId = $(this).val();

@@ -273,7 +273,7 @@
 
           <!-- Paso 3 -->
           <div id="paso3" style="display: none;">
-            <p><b>PLista de códigos</b></p>
+            <p><b>Lista de códigos</b></p>
             <ul>
               <li>Paso 1: Haz clic en Lista de códigos</li>
               <li>Paso 2: Se desplegará un listado con todos los códigos ya reservados</li>
