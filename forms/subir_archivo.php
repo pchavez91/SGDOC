@@ -155,7 +155,7 @@ toastr.options = {
               <li>Paso 3: Busca el archivo en "seleccionar archivo".</li>
               <li>Paso 4: Subelo al sistema y presiona el boton confirmar.</li>
             </ul>
-            <img src="IMAGENES/subir_archivo_1.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/subir_archivo_1.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 2 -->
@@ -164,14 +164,14 @@ toastr.options = {
               <li>El nuevo registro aparece al tope de tu lista</li>
               <li>Desde allí podrás ver su progreso, descargarlo o cancelarlo antes de que lo aprueben.</li>
             </ul>
-            <img src="IMAGENES/subir_archivo_2.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/subir_archivo_2.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
-
+        </div>
         <!-- Controles de navegación -->
-        <div class="modal-footer">
+        <div class="modal-footer" style="text-align: center;">
           <button type="button" class="btn btn-default" id="btnAnterior" onclick="cambiarPaso(-1)">Anterior</button>
           <button type="button" class="btn btn-primary" id="btnSiguiente" onclick="cambiarPaso(1)">Siguiente</button>
-          </div>
+        </div>
 
       </div>
     </div>
@@ -341,55 +341,47 @@ toastr.options = {
 <!-- FIN CODIGO ARCHIVO-->
 <!-- script modal ayuda -->
 <script>
-    function abre_modal_ayuda() {
+  function abre_modal_ayuda() {
     $("#ventana_de_ayuda").modal('show');
 
     pasoActual = 1;
     document.getElementById("paso1").style.display = "block";
     document.getElementById("paso2").style.display = "none";
-   
 
     document.getElementById("btnSiguiente").style.display = "inline-block";
     document.getElementById("btnAnterior").style.display = "none";
   }
 
   let pasoActual = 1;
-  const totalPasos = 2;
 
   function cambiarPaso(direccion) {
+    // Oculta el paso actual
     document.getElementById(`paso${pasoActual}`).style.display = "none";
 
-    // Cambia el paso
+    // Cambia el paso (1 o 2 nada más)
     pasoActual += direccion;
 
-    // Asegura que esté dentro del rango válido
     if (pasoActual < 1) pasoActual = 1;
-    if (pasoActual > totalPasos) pasoActual = totalPasos;
+    if (pasoActual > 2) pasoActual = 2;
 
+    // Muestra el nuevo paso
     document.getElementById(`paso${pasoActual}`).style.display = "block";
 
     // Actualiza botones
     const btnAnterior = document.getElementById("btnAnterior");
     const btnSiguiente = document.getElementById("btnSiguiente");
 
-    // Mostrar u ocultar botón "Atrás"
     if (pasoActual === 1) {
       btnAnterior.style.display = "none";
-    } else {
-      btnAnterior.style.display = "inline-block";
-    }
-
-    // Mostrar u ocultar botón "Siguiente"
-    if (pasoActual === totalPasos) {
-      btnSiguiente.style.display = "none";
-    } else {
       btnSiguiente.style.display = "inline-block";
       btnSiguiente.textContent = "Siguiente";
+    } else if (pasoActual === 2) {
+      btnAnterior.style.display = "inline-block";
+      btnSiguiente.style.display = "none";
     }
   }
-
-
 </script>
+
 
 
 <script src="../repositorio/js/jquery.inputmask.bundle.js"></script>

@@ -213,14 +213,14 @@ toastr.options = {
           <div id="paso1">
             <p><b>Completa el formulario con los datos necesarios para tu documento</b></p>
             
-            <img src="IMAGENES/solicitud_codigo_1.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/solicitud_codigo_1.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 2 -->
           <div id="paso2" style="display: none;">
             <p><b>Despues de completar el formulario presiona el boton de generar codigo</b></p>
             
-            <img src="IMAGENES/solicitud_codigo_2.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/solicitud_codigo_2.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 3 -->
@@ -229,7 +229,7 @@ toastr.options = {
               <li>Despues de confirmar todos los datos presiona el boton "reservar y enviar por correo".</li>
               <li>Recibirás un correo con tu nuevo código.</li>
             </ul>
-            <img src="IMAGENES/solicitud_codigo_3.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/solicitud_codigo_3.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
 
         </div>

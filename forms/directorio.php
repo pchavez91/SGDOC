@@ -257,7 +257,7 @@
               <li>Paso 2: completa el codigo a reservar</li>
               <li>Paso 3: presione en "reservar codigo" para guardar el codigo</li>
             </ul>
-            <img src="IMAGENES/generar-codigo.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/generar-codigo.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 2 -->
@@ -268,7 +268,7 @@
               <li>Paso 2: ingresa el nombre de la nueva carpeta y agrega su nomesclatura</li>
               <li>Paso 3: presione en el boton crear carpeta para finalizar</li>
             </ul>
-            <img src="IMAGENES/carpeta.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/carpeta.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
 
           <!-- Paso 3 -->
@@ -279,7 +279,7 @@
               <li>Paso 2: Se desplegará un listado con todos los códigos ya reservados</li>
               <li>Paso 3: Usa el buscador interno para encontrar entre los codigos reservados el| que necesitas</li>
             </ul>
-            <img src="IMAGENES/lista-codigos.png" style="max-width: 100%; max-height: 300px; object-fit: contain; display: block; margin: auto;">
+            <img src="IMAGENES/lista-codigos.png" style="max-width: 100%; max-height: 400px; object-fit: contain; display: block; margin: auto;">
           </div>
         </div>
 
