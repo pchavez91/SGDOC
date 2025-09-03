@@ -10,7 +10,7 @@
       width: 100%;
       height: 400px;
       overflow-y: auto;
-      margin: 24px;
+      margin: 0px;
       padding: 20px;
       background-color: #f9f9f9;
       border-radius: 8px;
@@ -33,8 +33,8 @@
     }
 
     .icono {
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 30px;
       margin-right: 8px;
       flex-shrink: 0;       
     }
