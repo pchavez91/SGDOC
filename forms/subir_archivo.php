@@ -134,9 +134,6 @@ toastr.options = {
     
 </body>
 
-<script src="script/infografia.js"></script>
-
-
 
   <!-- VENTANA AYUDA-->
   <div id="ventana_de_ayuda" class="modal fade">
@@ -169,17 +166,6 @@ toastr.options = {
             </ul>
             <img src="IMAGENES/subir_archivo_2.png" style="width: 100%; height: auto;">
           </div>
-
-          <!-- Paso 3 -->
-          <div id="paso3" style="display: none;">
-            <p><b>Paso 3: Navega por la jerarquía</b></p>
-            <ul>
-              <li></li>
-            </ul>
-            <img src="IM.png" style="width: 100%; height: auto;">
-          </div>
-
-        </div>
 
         <!-- Controles de navegación -->
         <div class="modal-footer">
@@ -353,7 +339,57 @@ toastr.options = {
 </div><!-- /.modal -->
 
 <!-- FIN CODIGO ARCHIVO-->
+<!-- script modal ayuda -->
+<script>
+    function abre_modal_ayuda() {
+    $("#ventana_de_ayuda").modal('show');
 
+    pasoActual = 1;
+    document.getElementById("paso1").style.display = "block";
+    document.getElementById("paso2").style.display = "none";
+   
+
+    document.getElementById("btnSiguiente").style.display = "inline-block";
+    document.getElementById("btnAnterior").style.display = "none";
+  }
+
+  let pasoActual = 1;
+  const totalPasos = 2;
+
+  function cambiarPaso(direccion) {
+    document.getElementById(`paso${pasoActual}`).style.display = "none";
+
+    // Cambia el paso
+    pasoActual += direccion;
+
+    // Asegura que esté dentro del rango válido
+    if (pasoActual < 1) pasoActual = 1;
+    if (pasoActual > totalPasos) pasoActual = totalPasos;
+
+    document.getElementById(`paso${pasoActual}`).style.display = "block";
+
+    // Actualiza botones
+    const btnAnterior = document.getElementById("btnAnterior");
+    const btnSiguiente = document.getElementById("btnSiguiente");
+
+    // Mostrar u ocultar botón "Atrás"
+    if (pasoActual === 1) {
+      btnAnterior.style.display = "none";
+    } else {
+      btnAnterior.style.display = "inline-block";
+    }
+
+    // Mostrar u ocultar botón "Siguiente"
+    if (pasoActual === totalPasos) {
+      btnSiguiente.style.display = "none";
+    } else {
+      btnSiguiente.style.display = "inline-block";
+      btnSiguiente.textContent = "Siguiente";
+    }
+  }
+
+
+</script>
 
 
 <script src="../repositorio/js/jquery.inputmask.bundle.js"></script>
